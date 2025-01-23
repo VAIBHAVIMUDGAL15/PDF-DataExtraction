@@ -1,0 +1,197 @@
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fdf6e3, #fce5cd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  width: 100%;
+  max-width: 1200px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #ff7043;
+  color: white;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Horizontal Layout */
+.horizontal-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.upload-section, .result-section {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.upload-section {
+  text-align: center;
+  background: #ffe0b2;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.upload-section h2 {
+  font-size: 1.6rem;
+  color: #5d4037;
+}
+
+.upload-section p {
+  font-size: 1rem;
+  margin: 10px 0 20px;
+  color: #795548;
+}
+
+.upload-btn {
+  display: inline-block;
+  background: #8bc34a;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.upload-btn input[type="file"] {
+  display: none;
+}
+
+.upload-btn:hover {
+  background: #7cb342;
+}
+
+.loading-text {
+  font-size: 1rem;
+  color: #d32f2f;
+  margin-top: 10px;
+}
+
+/* Extracted Data Section */
+.result-section {
+  background: #e6ee9c;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.result-section h2 {
+  font-size: 1.6rem;
+  color: #5d4037;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: grid;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+input:read-only, textarea:read-only {
+  background: #e0f2f1;
+  border: 1px solid #80cbc4;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #ff7043;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #ffc107;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.resume-btn:hover {
+  background: #ffa000;
+}
+
+/* Why Hire Me Section */
+.why-hire-me {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  background: #fff3e0;
+  border: 1px solid #ffcc80;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.why-hire-me h2 {
+  font-size: 1.4rem;
+  color: #e64a19;
+  margin-bottom: 10px;
+}
+
+.why-hire-me p {
+  font-size: 1rem;
+  color: #6d4c41;
+}
